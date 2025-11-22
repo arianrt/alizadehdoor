@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/css/pagedone.css " rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+    <title>Home Page</title>
+</head>
+
+<body style="background-color: #B1B1B1;">
+    <nav class="fixed top-0 w-full py-3 z-50 backdrop-blur-lg">
+        <div class="container mx-auto">
+            <div class="w-full flex flex-col lg:flex-row">
+                <div class=" flex items-center justify-between lg:flex-row px-4">
+                    <a href="">
+                        LOGO
+                    </a>
+                    <button data-collapse-toggle="navbar-default-example" type="button"
+                        class="inline-flex items-center p-2 ml-3 rounded-lg lg:hidden"
+                        aria-controls="navbar-default-example" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-8 h-8" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden w-full lg:flex lg:pl-11 " id="navbar-default-example">
+                    <ul class="flex items-center flex-col mt-4 lg:mt-0 lg:ml-auto lg:flex-row gap-4 text-2xl md:text-xl"
+                        dir="rtl">
+                        <li>
+                            <a href=""
+                                class="flex items-center justify-between transition-all duration-400 mb-2 lg:mr-6 md:mb-0 md:mr-3">
+                                خانه
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""
+                                class="flex items-center justify-between transition-all duration-400 mb-2 lg:mr-6 md:mb-0 md:mr-3">
+                                درباره ما
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""
+                                class="flex items-center justify-between transition-all duration-400 mb-2 lg:mr-6 md:mb-0 md:mr-3">
+                                درب ها
+                            </a>
+                        </li>
+                        <li>
+                            <a href=""
+                                class="flex items-center justify-between transition-all duration-400 mb-2 lg:mr-6 md:mb-0 md:mr-3">
+                                تماس با ما
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="w-[100%] md:w-[80%] md:ml-[10%] mt-[15vh] p-2 flex flex-wrap-reverse justify-center">
+        <img src="image/Hero-Door.jpg" alt="" class="w-[80%] md:w-[40%] rounded-lg">
+        <div class="w-[80%] md:w-[60%] p-5 text-center md:text-justify" dir="rtl">
+            <h1 class="text-4xl md:text-7xl">
+                تولیدی درب علیزاده
+            </h1>
+            <p class="mt-10">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                کاربردهای متنوع.
+            </p>
+            <button class="text-white font-bold p-2 mt-5 rounded cursor-pointer transition duration-300 hover:scale-110"
+                style="background-color: #787D62;">
+                تماس بگیرید
+                <i class="fa-solid fa-phone mr-2"></i>
+            </button>
+        </div>
+    </section>
+
+
+    <h2 class="text-center text-4xl p-5 mt-40 md:mt-20" style="color: #787D62;">
+        درباره ما
+    </h2>
+    <hr class="h-px border-0 w-[80%] ml-[10%]" style="background-color: #787D62;">
+    <section class="w-[100%] md:w-[80%] md:ml-[10%] mt-5 p-2 flex flex-wrap justify-center">
+        <div class="w-[80%] md:w-[50%] p-5 text-center md:text-justify" dir="rtl">
+            <h1 class="text-5xl">
+                تولیدی درب علیزاده
+            </h1>
+            <p class="mt-10">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+                متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+                کاربردهای متنوع.
+            </p>
+        </div>
+        <div class="w-[80%] md:w-[50%]">
+            <img src="image/about-us.gif" alt="" class="w-full rounded-lg">
+        </div>
+    </section>
+
+    <h2 class="text-center text-4xl p-5 mt-40 md:mt-20" style="color: #787D62;">
+        نمونه درب ها
+    </h2>
+    <hr class="h-px border-0 w-[80%] ml-[10%]" style="background-color: #787D62;">
+    <section class="w-[100%] md:w-[80%] md:ml-[10%] mt-10 flex flex-wrap justify-center items-center">
+        <div class="w-[80%] md:w-[80%]">
+            <div class="grid grid-cols-2 gap-6">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="image/7.jpg" alt="Gallery image" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="image/8.jpg" alt="Gallery image" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="image/9.jpg" alt="Gallery image" />
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="image/10.jpg" alt="Gallery image" />
+                </div>
+            </div>
+        </div>
+        <div class="w-[80%] md:w-[20%] text-center">
+            <h1 class="text-4xl rotate-90">
+               جدید ترین درب ها
+            </h1>
+        </div>
+    </section>
+    <section class="w-[100%] md:w-[80%] md:ml-[10%] mt-10 max-md:p-4">
+        <div class="w-full relative">
+            <div class="swiper centered-slide-carousel swiper-container relative ">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl h-96 flex justify-center items-center">
+                            <img class="w-full" src="image/1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl h-96 flex justify-center items-center">
+                            <img class="w-full" src="image/2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl h-96 flex justify-center items-center">
+                            <img class="w-full" src="image/3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl h-96 flex justify-center items-center">
+                            <img class="w-full" src="image/4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl h-96 flex justify-center items-center">
+                            <img class="w-full" src="image/5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="rounded-2xl h-96 flex justify-center items-center">
+                            <img class="w-full" src="image/6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination "></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <div class="footer mt-30 p-5">
+        <div class="footer-link w-[60%] ml-[20%] mt-20 text-center space-x-5">
+            <a href="">
+                <i class="fa-brands fa-instagram text-white text-3xl hover:scale-125 transition duration-300"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-linkedin text-white text-3xl hover:scale-125 transition duration-300"></i>
+            </a>
+
+            <a href="">
+                <i class="fa-brands fa-telegram text-white text-3xl hover:scale-125 transition duration-300"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="copyrigh p-4 cursor-pointer" style="background-color: #787D62;">
+        <p class="text-center"> &#169; 2025 <span class="text-white">Team Name</span> All Rights
+            Reseved, Inc</p>
+    </div>
+
+    <script src="https://kit.fontawesome.com/27419798cf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pagedone@1.2.2/src/js/pagedone.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
