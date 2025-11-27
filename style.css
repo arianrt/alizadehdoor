@@ -15,6 +15,7 @@ body {
 
 nav a:hover {
   color: #787D62;
+  transition: 0.5s;
 }
 
 .footer-link i:hover {
@@ -34,4 +35,8 @@ background: #787D62;
 }
 .swiper-pagination-bullet-active {
 background: #787D62 !important;
+}
+
+#slide1 button:hover , #slide2 button:hover, #slide3 button:hover, #slide4 button:hover{
+  color: #787D62;
 }
